@@ -246,7 +246,16 @@ class Index extends Component {
                 </section>
               </ContactText>
             </Inner>
-            <Footer>&copy; 2019 Powered by Gatsby.js & React.js</Footer>
+            <a href="https://github.com/austinloveless">
+              <i class="fab fa-github" />
+            </a>
+            <a href="https://drive.google.com/file/d/1eP9iTCKEI5AIV_sryQR7Lb0fIs92PaI5/view">
+              <i class="fa fa-file" aria-hidden="true" />
+            </a>
+            <a href="https://www.linkedin.com/in/austin-loveless/">
+              <i class="fab fa-linkedin" />
+            </a>
+            <Footer>&copy; 2019 Powered by Gatsby.js & React.js </Footer>
           </Contact>
         </Parallax>
       </>
