@@ -6,26 +6,37 @@ input {
 }
 
 .row {
+  text-align: left !important;
   margin: -20px 0;
 }
 .row:after {
+  text-align: left !important;
+
   display: table;
   clear: both;
 }
 .row .col {
+  text-align: left !important;
+
   padding: 0 20px;
   float: left;
 }
 .row .col.x-50 {
+  text-align: left !important;
+
   width: 50%;
 }
 .row .col.x-100 {
+  text-align: left !important;
+
   width: 100%;
 }
 .content-wrapper {
   position: relative;
 }
 .get-in-touch {
+  text-align: left !important;
+
   max-width: 650px;
   margin: 0 auto;
   position: relative;
@@ -33,6 +44,8 @@ input {
   transform: translateY(-50%);
 }
 .get-in-touch .title {
+  text-align: left !important;
+
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -86,6 +99,8 @@ input {
   cursor: pointer;
 }
 .note {
+  text-align: left !important;
+
   position: absolute;
   left: 0;
   bottom: 10px;
