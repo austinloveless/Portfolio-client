@@ -112,7 +112,7 @@ class Index extends Component {
             </BigTitle>
             <Subtitle>
               I'm building Web/Mobile application backed with Cloud
-              infrastructure.
+              infrastructure.Test
             </Subtitle>
           </Hero>
           <Projects offset={1}>
