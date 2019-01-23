@@ -111,8 +111,17 @@ class Index extends Component {
               </a>
             </BigTitle>
             <Subtitle>
-              I'm building Web/Mobile application backed with Cloud
-              infrastructure.Test
+              I build Web/Mobile applications backed with AWS Cloud
+              Infrastructure.{" "}
+              <a href="https://github.com/austinloveless">
+                <i class="fab fa-github" />
+              </a>
+              <a href="https://drive.google.com/file/d/1eP9iTCKEI5AIV_sryQR7Lb0fIs92PaI5/view">
+                <i class="fa fa-file" aria-hidden="true" />
+              </a>
+              <a href="https://www.linkedin.com/in/austin-loveless/">
+                <i class="fab fa-linkedin" />
+              </a>
             </Subtitle>
           </Hero>
           <Projects offset={1}>
@@ -131,24 +140,25 @@ class Index extends Component {
                 link="https://campgrounds-yelp-camp.herokuapp.com/"
                 bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
               >
-                YelpCamp is a yelp like site, but used for campsites of users.
-                The project was built off a Node server with EJS.
+                YelpCamp is a lot like Yelp but used for campsites. Built with a
+                Node server using EJS server-side rendering.
               </ProjectCard>
               <ProjectCard
                 title="Scratch"
                 link="https://scratch-that-note.com/"
                 bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
               >
-                A note taking application for web or mobile devices. Scratch is
-                backed completely by AWS resources with a React Frontend.
+                This application is used to take notes on web or mobile devices.
+                Scratch is backed completely by AWS resources with a React
+                Frontend.
               </ProjectCard>
               <ProjectCard
                 title="Austin Codes"
                 link="https://www.behance.net/gallery/38068151/Eagle"
                 bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
               >
-                A simple Gatsby blog site. Used to host my blogs about new
-                coding challenge, projects, or discoveries I've found.
+                A simple Gatsby blog site. Used to host my blogs on new coding
+                challenges, projects, and discoveries I've found.
               </ProjectCard>
             </ProjectsWrapper>
           </Projects>
@@ -157,18 +167,19 @@ class Index extends Component {
             <AboutHero>
               <Avatar src={avatar} alt="Austin Loveless" />
               <AboutSub>
-                Full Stack Developer with a passion for Amazon Web Services. My
-                skills stretch from mobile/web development to cloud computing
-                and infrastructure. To continue my growth I will be working with
-                Rasphberry Pi's and Arduinos.
+                I'm a full Stack Developer with a passion for Amazon Web
+                Services. My skills span from mobile/web development to cloud
+                computing and infrastructure. Learning new things exites me.
+                Currently I'm working on a project with Rasphberry Pis.
               </AboutSub>
             </AboutHero>
             <AboutDesc>
-              Prior to Software Development I was in the Navy. Now with the
-              skills acquired in the Navy I attended a fast paced Engineering
-              program where I finished in half the time. Outside of just
-              development I volunteer to help teach a web development course and
-              attend/speak at meetups around the community.
+              Prior to Software Development I was in the Navy. Moving forward
+              with new principles acquired from military training, I attended a
+              fast-paced immersive Software Engineering program where I finished
+              at the top of my class. Outside of development, I volunteer to
+              help teach a web development course and attend/speak at meetups in
+              the developer community.
             </AboutDesc>
           </About>
           <Contact offset={4}>
