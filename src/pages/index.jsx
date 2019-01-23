@@ -113,15 +113,6 @@ class Index extends Component {
             <Subtitle>
               I build Web/Mobile applications backed with AWS Cloud
               Infrastructure.{" "}
-              <a href="https://github.com/austinloveless">
-                <i class="fab fa-github" />
-              </a>
-              <a href="https://drive.google.com/file/d/1eP9iTCKEI5AIV_sryQR7Lb0fIs92PaI5/view">
-                <i class="fa fa-file" aria-hidden="true" />
-              </a>
-              <a href="https://www.linkedin.com/in/austin-loveless/">
-                <i class="fab fa-linkedin" />
-              </a>
             </Subtitle>
           </Hero>
           <Projects offset={1}>
@@ -153,12 +144,13 @@ class Index extends Component {
                 Frontend.
               </ProjectCard>
               <ProjectCard
-                title="Austin Codes"
-                link="https://www.behance.net/gallery/38068151/Eagle"
-                bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
+                title="Gvideos"
+                link="https://g90-videos.firebaseapp.com/"
+                bg="linear-gradient(to right, #16A8E6 0%, #1D16E6 100%)"
               >
-                A simple Gatsby blog site. Used to host my blogs on new coding
-                challenges, projects, and discoveries I've found.
+                Gvideos is a recreating of a video sharing site used by students
+                at Galvanize. The application is made with Vue and Node/Express
+                with Passport Authentication.
               </ProjectCard>
             </ProjectsWrapper>
           </Projects>
@@ -246,15 +238,7 @@ class Index extends Component {
                 </section>
               </ContactText>
             </Inner>
-            <a href="https://github.com/austinloveless">
-              <i class="fab fa-github" />
-            </a>
-            <a href="https://drive.google.com/file/d/1eP9iTCKEI5AIV_sryQR7Lb0fIs92PaI5/view">
-              <i class="fa fa-file" aria-hidden="true" />
-            </a>
-            <a href="https://www.linkedin.com/in/austin-loveless/">
-              <i class="fab fa-linkedin" />
-            </a>
+
             <Footer>&copy; 2019 Powered by Gatsby.js & React.js </Footer>
           </Contact>
         </Parallax>
