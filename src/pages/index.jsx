@@ -104,7 +104,7 @@ class Index extends Component {
             <BigTitle>
               Hello, <br /> I'm Austin Loveless. Check out my{" "}
               <a
-                href="#
+                href="http://blog.austincloveless.codes/
           "
               >
                 blogs!
