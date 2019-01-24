@@ -113,6 +113,12 @@ class Index extends Component {
             <Subtitle>
               I build Web/Mobile applications backed with AWS Cloud
               Infrastructure.{" "}
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/1eP9iTCKEI5AIV_sryQR7Lb0fIs92PaI5/view"
+              >
+                Resume{" "}
+              </a>
             </Subtitle>
           </Hero>
           <Projects offset={1}>
